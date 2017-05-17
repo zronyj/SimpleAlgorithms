@@ -84,7 +84,7 @@ def scoring(chromosome):
         ctrl += i
     return ctrl
 
-# Kills the chromosomes which are too weak
+# Kills the chromosomes that are too weak
 def natural_sel(unit, limit=10):
     scores = []
     for i in unit:
@@ -134,6 +134,7 @@ def GAv(initial_pop=100, generations=5, chrom_len=10, interval=1, kind=1, mut=0.
     results(unit)
     return unit
 
+# Uncommented genetic algorithm
 def GA(initial_pop=100, generations=5, chrom_len=10, interval=1, kind=1, mut=0.1, expected=50, final_pop=10):
     unit = first_gen(initial_pop, chrom_len, interval, kind)
     for i in range(generations):
