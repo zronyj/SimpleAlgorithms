@@ -1,0 +1,1181 @@
+[{ 
+	"name": "Hydro­gen",
+	"number": 1,
+	"symbol": "H",
+	"mass": 1.01,
+	"density": 0.084,
+	"melting": -259.1,
+	"boiling": -252.9,
+	"discovery": 1766,
+	"discoveredby": "Cavendish"
+},{ 
+	"name": "He­lium",
+	"number": 2,
+	"symbol": "He",
+	"mass": 4,
+	"density": 0.17,
+	"melting": -272.2,
+	"boiling": -268.9,
+	"discovery": 1895,
+	"discoveredby": "Ramsay, Crookes"
+},{ 
+	"name": "Lith­ium",
+	"number": 3,
+	"symbol": "Li",
+	"mass": 6.94,
+	"density": 530,
+	"melting": 180.5,
+	"boiling": 1317,
+	"discovery": 1817,
+	"discoveredby": "Arfwedson"
+},{ 
+	"name": "Beryl­lium",
+	"number": 4,
+	"symbol": "Be",
+	"mass": 9.01,
+	"density": 1850,
+	"melting": 1278,
+	"boiling": 2970,
+	"discovery": 1797,
+	"discoveredby": "Vauquelin"
+},{ 
+	"name": "Boron",
+	"number": 5,
+	"symbol": "B",
+	"mass": 10.81,
+	"density": 2460,
+	"melting": 2300,
+	"boiling": 2550,
+	"discovery": 1808,
+	"discoveredby": "Davy, Gay-Lussac"
+},{ 
+	"name": "Carbon",
+	"number": 6,
+	"symbol": "C",
+	"mass": 12.01,
+	"density": 3510,
+	"melting": 35502,
+	"boiling": 35502,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Nitro­gen",
+	"number": 7,
+	"symbol": "N",
+	"mass": 14.01,
+	"density": 1.17,
+	"melting": -209.9,
+	"boiling": -195.8,
+	"discovery": 1771,
+	"discoveredby": "Scheele"
+},{ 
+	"name": "Oxy­gen",
+	"number": 8,
+	"symbol": "O",
+	"mass": 16,
+	"density": 1.33,
+	"melting": -218.4,
+	"boiling": -182.9,
+	"discovery": 1774,
+	"discoveredby": "Priestley, Scheele"
+},{ 
+	"name": "Fluor­ine",
+	"number": 9,
+	"symbol": "F",
+	"mass": 19,
+	"density": 1.58,
+	"melting": -219.6,
+	"boiling": -188.1,
+	"discovery": 1886,
+	"discoveredby": "Moissan"
+},{ 
+	"name": "Neon",
+	"number": 10,
+	"symbol": "Ne",
+	"mass": 20.18,
+	"density": 0.84,
+	"melting": -248.7,
+	"boiling": -246.1,
+	"discovery": 1898,
+	"discoveredby": "Ramsay Travers"
+},{ 
+	"name": "So­dium",
+	"number": 11,
+	"symbol": "Na",
+	"mass": 22.99,
+	"density": 970,
+	"melting": 97.8,
+	"boiling": 892,
+	"discovery": 1807,
+	"discoveredby": "Davy"
+},{ 
+	"name": "Magne­sium",
+	"number": 12,
+	"symbol": "Mg",
+	"mass": 24.3,
+	"density": 1740,
+	"melting": 648.8,
+	"boiling": 1107,
+	"discovery": 1828,
+	"discoveredby": "Bussy"
+},{ 
+	"name": "Alumin­ium",
+	"number": 13,
+	"symbol": "Al",
+	"mass": 26.98,
+	"density": 2700,
+	"melting": 660.5,
+	"boiling": 2467,
+	"discovery": 1825,
+	"discoveredby": "Ørsted"
+},{ 
+	"name": "Sili­con",
+	"number": 14,
+	"symbol": "Si",
+	"mass": 28.09,
+	"density": 2330,
+	"melting": 1410,
+	"boiling": 2355,
+	"discovery": 1824,
+	"discoveredby": "Berzelius"
+},{ 
+	"name": "Phos­phorus",
+	"number": 15,
+	"symbol": "P",
+	"mass": 30.97,
+	"density": 1820,
+	"melting": 44,
+	"boiling": 280,
+	"discovery": 1669,
+	"discoveredby": "Brand"
+},{ 
+	"name": "Sulfur",
+	"number": 16,
+	"symbol": "S",
+	"mass": 32.07,
+	"density": 2060,
+	"melting": 113,
+	"boiling": 444.7,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Chlor­ine",
+	"number": 17,
+	"symbol": "Cl",
+	"mass": 35.45,
+	"density": 2.95,
+	"melting": -101,
+	"boiling": -34.6,
+	"discovery": 1774,
+	"discoveredby": "Scheele"
+},{ 
+	"name": "Argon",
+	"number": 18,
+	"symbol": "Ar",
+	"mass": 39.94,
+	"density": 1.66,
+	"melting": -189.4,
+	"boiling": -185.9,
+	"discovery": 1894,
+	"discoveredby": "Ramsay, Strutt"
+},{ 
+	"name": "Potas­sium",
+	"number": 19,
+	"symbol": "K",
+	"mass": 39.1,
+	"density": 860,
+	"melting": 63.7,
+	"boiling": 774,
+	"discovery": 1807,
+	"discoveredby": "Davy"
+},{ 
+	"name": "Cal­cium",
+	"number": 20,
+	"symbol": "Ca",
+	"mass": 40.08,
+	"density": 1540,
+	"melting": 839,
+	"boiling": 1487,
+	"discovery": 1808,
+	"discoveredby": "Davy"
+},{ 
+	"name": "Scan­dium",
+	"number": 21,
+	"symbol": "Sc",
+	"mass": 44.96,
+	"density": 2990,
+	"melting": 1539,
+	"boiling": 2832,
+	"discovery": 1879,
+	"discoveredby": "Nilson"
+},{ 
+	"name": "Tita­nium",
+	"number": 22,
+	"symbol": "Ti",
+	"mass": 47.88,
+	"density": 4510,
+	"melting": 1660,
+	"boiling": 3260,
+	"discovery": 1791,
+	"discoveredby": "Gregor, Klaproth"
+},{ 
+	"name": "Vana­dium",
+	"number": 23,
+	"symbol": "V",
+	"mass": 50.94,
+	"density": 6090,
+	"melting": 1890,
+	"boiling": 3380,
+	"discovery": 1801,
+	"discoveredby": "del Río"
+},{ 
+	"name": "Chrom­ium",
+	"number": 24,
+	"symbol": "Cr",
+	"mass": 52,
+	"density": 7140,
+	"melting": 1857,
+	"boiling": 2482,
+	"discovery": 1797,
+	"discoveredby": "Vauquelin"
+},{ 
+	"name": "Manga­nese",
+	"number": 25,
+	"symbol": "Mn",
+	"mass": 54.9,
+	"density": 7440,
+	"melting": 1244,
+	"boiling": 2097,
+	"discovery": 1774,
+	"discoveredby": "Gahn"
+},{ 
+	"name": "Iron",
+	"number": 26,
+	"symbol": "Fe",
+	"mass": 55.85,
+	"density": 7870,
+	"melting": 1535,
+	"boiling": 2750,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Cobalt",
+	"number": 27,
+	"symbol": "Co",
+	"mass": 58.93,
+	"density": 8890,
+	"melting": 1495,
+	"boiling": 2870,
+	"discovery": 1735,
+	"discoveredby": "Brandt"
+},{ 
+	"name": "Nickel",
+	"number": 28,
+	"symbol": "Ni",
+	"mass": 58.69,
+	"density": 8910,
+	"melting": 1453,
+	"boiling": 2732,
+	"discovery": 1751,
+	"discoveredby": "Cronstedt"
+},{ 
+	"name": "Copper",
+	"number": 29,
+	"symbol": "Cu",
+	"mass": 63.55,
+	"density": 8920,
+	"melting": 1083.5,
+	"boiling": 2595,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Zinc",
+	"number": 30,
+	"symbol": "Zn",
+	"mass": 65.39,
+	"density": 7140,
+	"melting": 419.6,
+	"boiling": 907,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Gallium",
+	"number": 31,
+	"symbol": "Ga",
+	"mass": 69.72,
+	"density": 5910,
+	"melting": 29.8,
+	"boiling": 2403,
+	"discovery": 1875,
+	"discoveredby": "Lecoq de Boisbaudran"
+},{ 
+	"name": "Germa­nium",
+	"number": 32,
+	"symbol": "Ge",
+	"mass": 72.61,
+	"density": 5320,
+	"melting": 937.4,
+	"boiling": 2830,
+	"discovery": 1886,
+	"discoveredby": "Winkler"
+},{ 
+	"name": "Arsenic",
+	"number": 33,
+	"symbol": "As",
+	"mass": 74.92,
+	"density": 5720,
+	"melting": 6132,
+	"boiling": 6132,
+	"discovery": 1250,
+	"discoveredby": "Albertus Magnus"
+},{ 
+	"name": "Sele­nium",
+	"number": 34,
+	"symbol": "Se",
+	"mass": 78.96,
+	"density": 4820,
+	"melting": 217,
+	"boiling": 685,
+	"discovery": 1817,
+	"discoveredby": "Berzelius"
+},{ 
+	"name": "Bromine",
+	"number": 35,
+	"symbol": "Br",
+	"mass": 79.9,
+	"density": 3140,
+	"melting": -7.3,
+	"boiling": 58.8,
+	"discovery": 1826,
+	"discoveredby": "Balard"
+},{ 
+	"name": "Kryp­ton",
+	"number": 36,
+	"symbol": "Kr",
+	"mass": 83.8,
+	"density": 3.48,
+	"melting": -156.6,
+	"boiling": -152.3,
+	"discovery": 1898,
+	"discoveredby": "Ramsay, Travers"
+},{ 
+	"name": "Rubid­ium",
+	"number": 37,
+	"symbol": "Rb",
+	"mass": 85.45,
+	"density": 1530,
+	"melting": 39,
+	"boiling": 688,
+	"discovery": 1861,
+	"discoveredby": "Bunsen, Kirchhoff"
+},{ 
+	"name": "Stront­ium",
+	"number": 38,
+	"symbol": "Sr",
+	"mass": 87.62,
+	"density": 2630,
+	"melting": 769,
+	"boiling": 1384,
+	"discovery": 1798,
+	"discoveredby": "Klaproth"
+},{ 
+	"name": "Yttrium",
+	"number": 39,
+	"symbol": "Y",
+	"mass": 88.91,
+	"density": 4470,
+	"melting": 1523,
+	"boiling": 3337,
+	"discovery": 1794,
+	"discoveredby": "Gadolin"
+},{ 
+	"name": "Zirco­nium",
+	"number": 40,
+	"symbol": "Zr",
+	"mass": 91.22,
+	"density": 6510,
+	"melting": 1852,
+	"boiling": 4377,
+	"discovery": 1789,
+	"discoveredby": "Klaproth"
+},{ 
+	"name": "Nio­bium",
+	"number": 41,
+	"symbol": "Nb",
+	"mass": 92.91,
+	"density": 8580,
+	"melting": 2468,
+	"boiling": 4927,
+	"discovery": 1801,
+	"discoveredby": "Hatchet"
+},{ 
+	"name": "Molyb­denum",
+	"number": 42,
+	"symbol": "Mo",
+	"mass": 95.94,
+	"density": 10280,
+	"melting": 2617,
+	"boiling": 5560,
+	"discovery": 1778,
+	"discoveredby": "Scheele"
+},{ 
+	"name": "Tech­netium",
+	"number": 43,
+	"symbol": "Tc",
+	"mass": 98.91,
+	"density": 11490,
+	"melting": 2172,
+	"boiling": 5030,
+	"discovery": 1937,
+	"discoveredby": "Segrè"
+},{ 
+	"name": "Ruthe­nium",
+	"number": 44,
+	"symbol": "Ru",
+	"mass": 101.07,
+	"density": 12450,
+	"melting": 2310,
+	"boiling": 3900,
+	"discovery": 1844,
+	"discoveredby": "Claus"
+},{ 
+	"name": "Rho­dium",
+	"number": 45,
+	"symbol": "Rh",
+	"mass": 102.91,
+	"density": 12410,
+	"melting": 1966,
+	"boiling": 3727,
+	"discovery": 1803,
+	"discoveredby": "Wollaston"
+},{ 
+	"name": "Pallad­ium",
+	"number": 46,
+	"symbol": "Pd",
+	"mass": 106.42,
+	"density": 12020,
+	"melting": 1552,
+	"boiling": 3140,
+	"discovery": 1803,
+	"discoveredby": "Wollaston"
+},{ 
+	"name": "Silver",
+	"number": 47,
+	"symbol": "Ag",
+	"mass": 107.87,
+	"density": 10490,
+	"melting": 961.9,
+	"boiling": 2212,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Cad­mium",
+	"number": 48,
+	"symbol": "Cd",
+	"mass": 112.41,
+	"density": 8640,
+	"melting": 321,
+	"boiling": 765,
+	"discovery": 1817,
+	"discoveredby": "Stromeyer und Hermann"
+},{ 
+	"name": "Indium",
+	"number": 49,
+	"symbol": "In",
+	"mass": 114.82,
+	"density": 7310,
+	"melting": 156.2,
+	"boiling": 2080,
+	"discovery": 1863,
+	"discoveredby": "Reich, Richter"
+},{ 
+	"name": "Tin",
+	"number": 50,
+	"symbol": "Sn",
+	"mass": 118.71,
+	"density": 7290,
+	"melting": 232,
+	"boiling": 2270,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Anti­mony",
+	"number": 51,
+	"symbol": "Sb",
+	"mass": 121.75,
+	"density": 6690,
+	"melting": 630.7,
+	"boiling": 1750,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Tellur­ium",
+	"number": 52,
+	"symbol": "Te",
+	"mass": 127.6,
+	"density": 6250,
+	"melting": 449.6,
+	"boiling": 990,
+	"discovery": 1782,
+	"discoveredby": "von Reichenstein"
+},{ 
+	"name": "Iodine",
+	"number": 53,
+	"symbol": "I",
+	"mass": 126.9,
+	"density": 4940,
+	"melting": 113.5,
+	"boiling": 184.4,
+	"discovery": 1811,
+	"discoveredby": "Courtois"
+},{ 
+	"name": "Xenon",
+	"number": 54,
+	"symbol": "Xe",
+	"mass": 131.29,
+	"density": 4.49,
+	"melting": -111.9,
+	"boiling": -107,
+	"discovery": 1898,
+	"discoveredby": "Ramsay, Travers"
+},{ 
+	"name": "Cae­sium",
+	"number": 55,
+	"symbol": "Cs",
+	"mass": 132.91,
+	"density": 1900,
+	"melting": 28.4,
+	"boiling": 690,
+	"discovery": 1860,
+	"discoveredby": "Kirchhoff, Bunsen"
+},{ 
+	"name": "Ba­rium",
+	"number": 56,
+	"symbol": "Ba",
+	"mass": 137.33,
+	"density": 3650,
+	"melting": 725,
+	"boiling": 1640,
+	"discovery": 1808,
+	"discoveredby": "Davy"
+},{ 
+	"name": "Lan­thanum",
+	"number": 57,
+	"symbol": "La",
+	"mass": 138.9,
+	"density": 6160,
+	"melting": 920,
+	"boiling": 3454,
+	"discovery": 1839,
+	"discoveredby": "Mosander"
+},{ 
+	"name": "Cerium",
+	"number": 58,
+	"symbol": "Ce",
+	"mass": 140.11,
+	"density": 6770,
+	"melting": 798,
+	"boiling": 3257,
+	"discovery": 1803,
+	"discoveredby": "von Hisinger, Berzelius"
+},{ 
+	"name": "Praseo­dymium",
+	"number": 59,
+	"symbol": "Pr",
+	"mass": 140.91,
+	"density": 6480,
+	"melting": 931,
+	"boiling": 3212,
+	"discovery": 1895,
+	"discoveredby": "von Welsbach"
+},{ 
+	"name": "Neo­dymium",
+	"number": 60,
+	"symbol": "Nd",
+	"mass": 144.24,
+	"density": 7000,
+	"melting": 1010,
+	"boiling": 3127,
+	"discovery": 1895,
+	"discoveredby": "von Welsbach"
+},{ 
+	"name": "Prome­thium",
+	"number": 61,
+	"symbol": "Pm",
+	"mass": 146.92,
+	"density": 7220,
+	"melting": 1080,
+	"boiling": 2730,
+	"discovery": 1945,
+	"discoveredby": "Marinsky"
+},{ 
+	"name": "Sama­rium",
+	"number": 62,
+	"symbol": "Sm",
+	"mass": 150.36,
+	"density": 7540,
+	"melting": 1072,
+	"boiling": 1778,
+	"discovery": 1879,
+	"discoveredby": "Lecoq de Boisbaudran"
+},{ 
+	"name": "Europ­ium",
+	"number": 63,
+	"symbol": "Eu",
+	"mass": 151.96,
+	"density": 5250,
+	"melting": 822,
+	"boiling": 1597,
+	"discovery": 1901,
+	"discoveredby": "Demarçay"
+},{ 
+	"name": "Gadolin­ium",
+	"number": 64,
+	"symbol": "Gd",
+	"mass": 157.25,
+	"density": 7890,
+	"melting": 1311,
+	"boiling": 3233,
+	"discovery": 1880,
+	"discoveredby": "de Marignac"
+},{ 
+	"name": "Ter­bium",
+	"number": 65,
+	"symbol": "Tb",
+	"mass": 158.93,
+	"density": 8250,
+	"melting": 1360,
+	"boiling": 3041,
+	"discovery": 1843,
+	"discoveredby": "Mosander"
+},{ 
+	"name": "Dyspro­sium",
+	"number": 66,
+	"symbol": "Dy",
+	"mass": 162.5,
+	"density": 8560,
+	"melting": 1409,
+	"boiling": 2335,
+	"discovery": 1886,
+	"discoveredby": "Lecoq de Boisbaudran"
+},{ 
+	"name": "Hol­mium",
+	"number": 67,
+	"symbol": "Ho",
+	"mass": 164.93,
+	"density": 8780,
+	"melting": 1470,
+	"boiling": 2720,
+	"discovery": 1878,
+	"discoveredby": "Soret"
+},{ 
+	"name": "Erbium",
+	"number": 68,
+	"symbol": "Er",
+	"mass": 167.26,
+	"density": 9050,
+	"melting": 1522,
+	"boiling": 2510,
+	"discovery": 1842,
+	"discoveredby": "Mosander"
+},{ 
+	"name": "Thulium",
+	"number": 69,
+	"symbol": "Tm",
+	"mass": 168.93,
+	"density": 9320,
+	"melting": 1545,
+	"boiling": 1727,
+	"discovery": 1879,
+	"discoveredby": "Cleve"
+},{ 
+	"name": "Ytter­bium",
+	"number": 70,
+	"symbol": "Yb",
+	"mass": 173.04,
+	"density": 6970,
+	"melting": 824,
+	"boiling": 1193,
+	"discovery": 1878,
+	"discoveredby": "de Marignac"
+},{ 
+	"name": "Lute­tium",
+	"number": 71,
+	"symbol": "Lu",
+	"mass": 174.97,
+	"density": 9840,
+	"melting": 1656,
+	"boiling": 3315,
+	"discovery": 1907,
+	"discoveredby": "von Welsbach, Urbain"
+},{ 
+	"name": "Haf­nium",
+	"number": 72,
+	"symbol": "Hf",
+	"mass": 178.49,
+	"density": 13310,
+	"melting": 2150,
+	"boiling": 5400,
+	"discovery": 1923,
+	"discoveredby": "Coster, de Hevesy"
+},{ 
+	"name": "Tanta­lum",
+	"number": 73,
+	"symbol": "Ta",
+	"mass": 180.95,
+	"density": 16680,
+	"melting": 2996,
+	"boiling": 5425,
+	"discovery": 1802,
+	"discoveredby": "Ekeberg"
+},{ 
+	"name": "Tung­sten",
+	"number": 74,
+	"symbol": "W",
+	"mass": 183.85,
+	"density": 19260,
+	"melting": 3407,
+	"boiling": 5927,
+	"discovery": 1783,
+	"discoveredby": "Fausto und Juan de Elhuyar"
+},{ 
+	"name": "Rhe­nium",
+	"number": 75,
+	"symbol": "Re",
+	"mass": 186.21,
+	"density": 21030,
+	"melting": 3180,
+	"boiling": 5627,
+	"discovery": 1925,
+	"discoveredby": "Noddack, Tacke, Berg"
+},{ 
+	"name": "Os­mium",
+	"number": 76,
+	"symbol": "Os",
+	"mass": 190.23,
+	"density": 22590,
+	"melting": 3045,
+	"boiling": 5027,
+	"discovery": 1803,
+	"discoveredby": "Tennant"
+},{ 
+	"name": "Iridium",
+	"number": 77,
+	"symbol": "Ir",
+	"mass": 192.22,
+	"density": 22560,
+	"melting": 2410,
+	"boiling": 4130,
+	"discovery": 1803,
+	"discoveredby": "Tennant"
+},{ 
+	"name": "Plat­inum",
+	"number": 78,
+	"symbol": "Pt",
+	"mass": 195.08,
+	"density": 21450,
+	"melting": 1772,
+	"boiling": 3827,
+	"discovery": 1557,
+	"discoveredby": "Scaliger"
+},{ 
+	"name": "Gold",
+	"number": 79,
+	"symbol": "Au",
+	"mass": 196.97,
+	"density": 19320,
+	"melting": 1064.4,
+	"boiling": 2940,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Mer­cury",
+	"number": 80,
+	"symbol": "Hg",
+	"mass": 200.59,
+	"density": 13550,
+	"melting": -38.9,
+	"boiling": 356.6,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Thallium",
+	"number": 81,
+	"symbol": "Tl",
+	"mass": 204.38,
+	"density": 11850,
+	"melting": 303.6,
+	"boiling": 1457,
+	"discovery": 1861,
+	"discoveredby": "Crookes"
+},{ 
+	"name": "Lead",
+	"number": 82,
+	"symbol": "Pb",
+	"mass": 207.2,
+	"density": 11340,
+	"melting": 327.5,
+	"boiling": 1740,
+	"discovery": null,
+	"discoveredby": "null"
+},{ 
+	"name": "Bis­muth",
+	"number": 83,
+	"symbol": "Bi",
+	"mass": 208.98,
+	"density": 9800,
+	"melting": 271.4,
+	"boiling": 1560,
+	"discovery": 1540,
+	"discoveredby": "Agricola"
+},{ 
+	"name": "Polo­nium",
+	"number": 84,
+	"symbol": "Po",
+	"mass": 208.98,
+	"density": 9200,
+	"melting": 254,
+	"boiling": 962,
+	"discovery": 1898,
+	"discoveredby": "Marie und Pierre Curie"
+},{ 
+	"name": "Asta­tine",
+	"number": 85,
+	"symbol": "At",
+	"mass": 209.99,
+	"density": null,
+	"melting": 302,
+	"boiling": 337,
+	"discovery": 1940,
+	"discoveredby": "Segrè"
+},{ 
+	"name": "Radon",
+	"number": 86,
+	"symbol": "Rn",
+	"mass": 222.02,
+	"density": 9.23,
+	"melting": -71,
+	"boiling": -61.8,
+	"discovery": 1900,
+	"discoveredby": "Dorn"
+},{ 
+	"name": "Fran­cium",
+	"number": 87,
+	"symbol": "Fr",
+	"mass": 223.02,
+	"density": null,
+	"melting": 27,
+	"boiling": 677,
+	"discovery": 1939,
+	"discoveredby": "Perey"
+},{ 
+	"name": "Ra­dium",
+	"number": 88,
+	"symbol": "Ra",
+	"mass": 226.03,
+	"density": 5500,
+	"melting": 700,
+	"boiling": 1140,
+	"discovery": 1898,
+	"discoveredby": "Marie und Pierre Curie"
+},{ 
+	"name": "Actin­ium",
+	"number": 89,
+	"symbol": "Ac",
+	"mass": 227.03,
+	"density": 10070,
+	"melting": 1047,
+	"boiling": 3197,
+	"discovery": 1899,
+	"discoveredby": "Debierne"
+},{ 
+	"name": "Thor­ium",
+	"number": 90,
+	"symbol": "Th",
+	"mass": 232.04,
+	"density": 11720,
+	"melting": 1750,
+	"boiling": 4787,
+	"discovery": 1829,
+	"discoveredby": "Berzelius"
+},{ 
+	"name": "Protac­tinium",
+	"number": 91,
+	"symbol": "Pa",
+	"mass": 231.04,
+	"density": 15370,
+	"melting": 1554,
+	"boiling": 4030,
+	"discovery": 1917,
+	"discoveredby": "Fajans Hahn, Meitner"
+},{ 
+	"name": "Ura­nium",
+	"number": 92,
+	"symbol": "U",
+	"mass": 238.03,
+	"density": 18970,
+	"melting": 1132.4,
+	"boiling": 3818,
+	"discovery": 1789,
+	"discoveredby": "Klaproth"
+},{ 
+	"name": "Neptu­nium",
+	"number": 93,
+	"symbol": "Np",
+	"mass": 237.05,
+	"density": 20480,
+	"melting": 640,
+	"boiling": 3902,
+	"discovery": 1940,
+	"discoveredby": "McMillan Abelson"
+},{ 
+	"name": "Pluto­nium",
+	"number": 94,
+	"symbol": "Pu",
+	"mass": 244.06,
+	"density": 19740,
+	"melting": 641,
+	"boiling": 3327,
+	"discovery": 1940,
+	"discoveredby": "Seaborg"
+},{ 
+	"name": "Ameri­cium",
+	"number": 95,
+	"symbol": "Am",
+	"mass": 243.06,
+	"density": 13670,
+	"melting": 994,
+	"boiling": 2607,
+	"discovery": 1944,
+	"discoveredby": "Seaborg"
+},{ 
+	"name": "Curium",
+	"number": 96,
+	"symbol": "Cm",
+	"mass": 247.07,
+	"density": 13510,
+	"melting": 1340,
+	"boiling": 3110,
+	"discovery": 1944,
+	"discoveredby": "Seaborg"
+},{ 
+	"name": "Berkel­ium",
+	"number": 97,
+	"symbol": "Bk",
+	"mass": 247.07,
+	"density": 13250,
+	"melting": 986,
+	"boiling": null,
+	"discovery": 1949,
+	"discoveredby": "Seaborg"
+},{ 
+	"name": "Califor­nium",
+	"number": 98,
+	"symbol": "Cf",
+	"mass": 251.08,
+	"density": 15100,
+	"melting": 900,
+	"boiling": null,
+	"discovery": 1950,
+	"discoveredby": "Seaborg"
+},{ 
+	"name": "Einstei­nium",
+	"number": 99,
+	"symbol": "Es",
+	"mass": 252.08,
+	"density": null,
+	"melting": 860,
+	"boiling": null,
+	"discovery": 1952,
+	"discoveredby": "Seaborg"
+},{ 
+	"name": "Fer­mium",
+	"number": 100,
+	"symbol": "Fm",
+	"mass": 257.1,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1952,
+	"discoveredby": "Seaborg"
+},{ 
+	"name": "Mende­levium",
+	"number": 101,
+	"symbol": "Md",
+	"mass": 258,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1955,
+	"discoveredby": "Seaborg"
+},{ 
+	"name": "Nobel­ium",
+	"number": 102,
+	"symbol": "No",
+	"mass": 259,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1958,
+	"discoveredby": "Seaborg"
+},{ 
+	"name": "Lawren­cium",
+	"number": 103,
+	"symbol": "Lr",
+	"mass": 260,
+	"density": null,
+	"melting": 1627,
+	"boiling": null,
+	"discovery": 1961,
+	"discoveredby": "Ghiorso"
+},{ 
+	"name": "Ruther­fordium",
+	"number": 104,
+	"symbol": "Rf",
+	"mass": 261.11,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1964,
+	"discoveredby": "Ghiorso"
+},{ 
+	"name": "Dub­nium",
+	"number": 105,
+	"symbol": "Db",
+	"mass": 262.11,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1967,
+	"discoveredby": "Ghiorso"
+},{ 
+	"name": "Sea­borgium",
+	"number": 106,
+	"symbol": "Sg",
+	"mass": 263.12,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1974,
+	"discoveredby": "Oganessian"
+},{ 
+	"name": "Bohr­ium",
+	"number": 107,
+	"symbol": "Bh",
+	"mass": 262.12,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1976,
+	"discoveredby": "Oganessian"
+},{ 
+	"name": "Has­sium",
+	"number": 108,
+	"symbol": "Hs",
+	"mass": 265,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1984,
+	"discoveredby": "GSI"
+},{ 
+	"name": "Meit­nerium",
+	"number": 109,
+	"symbol": "Mt",
+	"mass": 266,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1982,
+	"discoveredby": "GSI"
+},{ 
+	"name": "Darm­stadtium",
+	"number": 110,
+	"symbol": "Ds",
+	"mass": 269,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1994,
+	"discoveredby": "GSI"
+},{ 
+	"name": "Roent­genium",
+	"number": 111,
+	"symbol": "Rg",
+	"mass": 272,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1994,
+	"discoveredby": "GSI"
+},{ 
+	"name": "Coper­nicium",
+	"number": 112,
+	"symbol": "Cn",
+	"mass": 277,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1996,
+	"discoveredby": "GSI"
+},{ 
+	"name": "Unun­trium",
+	"number": 113,
+	"symbol": "Uut",
+	"mass": 287,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 2006,
+	"discoveredby": "JINR"
+},{ 
+	"name": "Flerov­ium",
+	"number": 114,
+	"symbol": "Fl",
+	"mass": 289,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 1999,
+	"discoveredby": "JINR"
+},{ 
+	"name": "Unun­pentium",
+	"number": 115,
+	"symbol": "Uup",
+	"mass": 288,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 2006,
+	"discoveredby": "JINR"
+},{ 
+	"name": "Liver­morium",
+	"number": 116,
+	"symbol": "Lv",
+	"mass": 289,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 2000,
+	"discoveredby": "JINR"
+},{ 
+	"name": "Unun­septium",
+	"number": 117,
+	"symbol": "Uus",
+	"mass": 292,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 2010,
+	"discoveredby": "JINR"
+},{ 
+	"name": "Unun­octium",
+	"number": 118,
+	"symbol": "Uuo",
+	"mass": 293,
+	"density": null,
+	"melting": null,
+	"boiling": null,
+	"discovery": 2006,
+	"discoveredby": "JINR"
+}]

@@ -9,6 +9,7 @@ except:
 try:
     import math
     import json
+    import array
 except:
     raise ImportError, "Interphase: Math and/or JSON could not be found!"
 
@@ -31,6 +32,8 @@ for ele in data:
 # Carga electrica de un electron
 K_ELE = 8.987552 * 10 ** -9
 
+# Radio de Bohr
+BOHR = 1.0 / 0.5291772083
 
 # Clase atomo para representar cada atomo con sus propias
 # coordenadas, simbolo, metodos, etc.
@@ -100,7 +103,7 @@ class Molecule(object):
         return True
 
     def set_bonds(self, *bonds):
-        """ Metodo para aniadir enlaces a la molecula. """
+        """ Metodo para agregar enlaces a la molecula. """
         if len(bonds) == 0:
             raise TypeError, "Molecule: The object added is empty."
         elif len(bonds) == 1:
@@ -158,6 +161,15 @@ class Molecule(object):
             distancias.append([i, self.atoms[i].element, temp.norm()])
         distancias.sort(key=lambda s: s[2])
         return distancias[0]
+
+    def get_center(self):
+        """ Metodo para encontrar el centro geometrico de la molecula. """
+        atms = len(self.atoms)
+        centro = Matrix([[0,0,0]])
+        for i in xrange(atms):
+            centro = centro + self.atoms[i].coords
+        centro *= (1.0/atms)
+        return centro
 
     def get_limits(self):
         """ Metodo para obtener los extremos (en tamanio)
@@ -222,29 +234,33 @@ class Molecule(object):
         else:
             return True
 
-    def make_grid(self, mesh=0.5, charge=False, lims=False):
+    def make_grid(self, mesh=0.5, extent=4, charge=False, lims=False):
         """ Funcion para construir una red de puntos sensibles al
         campo electrico de la molecula. """
         if not lims:
             limits = self.get_limits()
+            for i in xrange(6):
+                if i % 2 == 0:
+                    limits[i] -= extent
+                else:
+                    limits[i] += extent
         else:
             limits = [l for l in lims]
-        for i in xrange(6):
-            if i % 2 == 0:
-                limits[i] -= 4
-            else:
-                limits[i] += 4
-        d_x = int((limits[1] - limits[0]) / mesh)
-        d_y = int((limits[3] - limits[2]) / mesh)
-        d_z = int((limits[5] - limits[4]) / mesh)
+        if (type(mesh) == float) or (type(mesh) == int):
+            m = [mesh, mesh, mesh]
+        else:
+            m = mesh
+        d_x = int((limits[1] - limits[0]) / m[0])
+        d_y = int((limits[3] - limits[2]) / m[1])
+        d_z = int((limits[5] - limits[4]) / m[2])
         grid = [0] * d_x * d_y * d_z
         coords = self.get_coords()
         for i in xrange(d_x):
             for j in xrange(d_y):
                 for k in xrange(d_z):
-                    x = limits[0] + i * mesh
-                    y = limits[2] + j * mesh
-                    z = limits[4] + k * mesh
+                    x = limits[0] + i * m[0]
+                    y = limits[2] + j * m[1]
+                    z = limits[4] + k * m[2]
                     if charge:
                         c = feel_field(x, y, z, coords)
                         grid[i*d_y*d_z + j*d_z + k] = (x, y, z, c)
@@ -252,6 +268,10 @@ class Molecule(object):
                         grid[i*d_y*d_z + j*d_z + k] = (x, y, z)
         return grid
 
+    def make_bond_grid(self, bond, angle_mesh=math.pi/6, mesh=0.5, charge=False):
+        """ Funcion para construir una red de puntos alrededor de un enlace,
+        sensibles al campo electrico de la molecula. """
+        pass
 
 # Funciones especiales del paquete
 
@@ -280,9 +300,9 @@ def rebonder(info):
             temp.append(int(i))
         except Exception as e:
             if i == 'ar':
-                temp.append(2)
+                temp.append(8)
             elif i == 'am':
-                temp.append(2)
+                temp.append(9)
             else:
                 raise TypeError, e
     temp[0] -= 1
@@ -326,15 +346,53 @@ def mol_from_mol2(smol):
     new.set_bonds(bds)
     return new
 
+def make_cube(molecule, mesh=0.5, fname='mol'):
+    lims = molecule.get_limits()
+    extent = 3.7
+    for h in xrange(6):
+        if h % 2 == 0:
+            lims[h] -= extent
+        else:
+            lims[h] += extent
+    D = [lims[1] - lims[0], lims[3] - lims[2], lims[5] - lims[4]]
+    d = [int(r / mesh) for r in D]
+    grid = molecule.make_grid(mesh=mesh, charge=True, lims=lims)
+    cg = [list(g[:-1]) + [g[3][3]] for g in grid]
+    cl = ['Cube file build with PyChemT by Rony J. Letona\n',
+          'Grid built using electrostatics insted of MOs\n',
+          '\t{0}\t{1:12.6f}\t{2:12.6f}\t{3:12.6f}\n'.format(len(molecule.atoms), lims[0]*BOHR,
+                                                            lims[2]*BOHR, lims[4]*BOHR),
+          '\t{0}\t{1:12.6f}\t{2:12.6f}\t{3:12.6f}\n'.format(d[0], BOHR*D[0]/(d[0]-1), 0.0, 0.0),
+          '\t{0}\t{1:12.6f}\t{2:12.6f}\t{3:12.6f}\n'.format(d[1], 0.0, BOHR*D[1]/(d[1]-1), 0.0),
+          '\t{0}\t{1:12.6f}\t{2:12.6f}\t{3:12.6f}\n'.format(d[2], 0.0, 0.0, BOHR*D[2]/(d[2]-1))]
+    for i in xrange(len(molecule.atoms)):
+        a = molecule.atoms[i]
+        n = PERIODIC_TABLE[a.element]['number']
+        crg = a.charge
+        ax, ay, az = a.coords[0]
+        cl.append('\t{0}\t{1:12.6f}\t{2:12.6f}\t{3:12.6f}\t{4:12.6f}\n'.format(n,
+                                                crg, ax*BOHR, ay*BOHR, az*BOHR))
+    temp = ''
+    for j in range(d[0]):
+        for k in range(d[1]):
+            for l in range(d[2]):
+                temp += '{0:13.5e}\t'.format(cg[(j*d[1] + k)*d[2] + l][3] * 10**9)
+                if ((j*d[1] + k)*d[2] + l + 1) % 6 == 0:
+                    temp += '\n'
+            temp += '\n'
+    cl.append(temp)
+    with open(fname + '.cube', 'w') as f:
+        f.writelines(cl)
+
 # Matriz de rotacion para vectores
 def rotation_mat(a=math.pi, u=Matrix([[1, 1, 1]])):
     R = [[math.cos(a) + u[0][0] ** 2 * (1 - math.cos(a)),
           u[0][0] * u[0][1] * (1 - math.cos(a)) + u[0][2] * math.sin(a),
           u[0][0] * u[0][2] * (1 - math.cos(a)) - u[0][1] * math.sin(a)],
          [u[0][0] * u[0][1] * (1 - math.cos(a)) - u[0][2] * math.sin(a),
-          cos(a) + u[0][1] ** 2 * (1 - math.cos(a)),
+          math.cos(a) + u[0][1] ** 2 * (1 - math.cos(a)),
           u[0][1] * u[0][2] * (1 - math.cos(a)) + u[0][0] * math.sin(a)],
          [u[0][0] * u[0][2] * (1 - math.cos(a)) + u[0][1] * math.sin(a),
           u[0][1] * u[0][2] * (1 - math.cos(a)) - u[0][0] * math.sin(a),
-          cos(a) + u[0][2] ** 2 * (1 - math.cos(a))]]
+          math.cos(a) + u[0][2] ** 2 * (1 - math.cos(a))]]
     return Matrix(R)

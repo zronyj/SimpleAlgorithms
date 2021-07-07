@@ -20,7 +20,7 @@ class Matrix(list):
             new = [map(lambda r, s: r + s, i, j) for i, j in zip(self, other)]
             return Matrix(new)
         else:
-            raise TypeError, "Matrix: Dimensions do not match."
+            raise TypeError("Matrix: Dimensions do not match.")
 
     def __sub__(self, other):
         """ Metodo para la resta de matrices. """
@@ -28,7 +28,7 @@ class Matrix(list):
             new = [map(lambda r, s: r - s, i, j) for i, j in zip(self, other)]
             return Matrix(new)
         else:
-            raise TypeError, "Matrix: Dimensions do not match."
+            raise TypeError("Matrix: Dimensions do not match.")
 
     def __neg__(self):
         """ Metodo para calcular la forma negativa de matrices. """
@@ -51,12 +51,12 @@ class Matrix(list):
                         new[c][f] = sum(map(lambda r, s: r * s, tra[f], other[c]))
                 return Matrix(new)
             else:
-                raise IndexError, "Matrix: Dimensions are not a match to multiply."
+                raise IndexError("Matrix: Dimensions are not a match to multiply.")
 
     def __pow__(self, other):
         """ Metodo para operar potencias de matrices. """
         if type(other) != int:
-            raise TypeError, "Matrix: Can not operate fractional power on matrices."
+            raise TypeError("Matrix: Can not operate fractional power on matrices.")
         else:
             if other >= 1:
                 new = Matrix(self * 1)
@@ -75,7 +75,7 @@ class Matrix(list):
                     new[i][i] = 1
                 return Matrix(new)
             else:
-                raise ValueError, "Matrix: Can not operate negative power on matrices."
+                raise ValueError("Matrix: Can not operate negative power on matrices.")
 
     def check(self, op, other):
         """ Metodo para revisar si dos matrices son operables. """
@@ -94,7 +94,7 @@ class Matrix(list):
             else:
                 return False
         else:
-            raise ValueError, "Matrix: There is no such operation."
+            raise ValueError("Matrix: There is no such operation.")
 
     def diag(self):
         """ Metodo para extraer la diagonal principal de una matriz. """
@@ -173,9 +173,9 @@ class Matrix(list):
                     d += (-1) ** i * self[i][0] * self.submat(i, 0).det()
                 return d
             else:
-                raise IndexError, "Matrix: Error in dimensions."
+                raise IndexError("Matrix: Error in dimensions.")
         else:
-            raise IndexError, "Matrix: Dimensions do not match."
+            raise IndexError("Matrix: Dimensions do not match.")
 
     def dim(self):
         """ Metodo para indicar las dimensiones de la matriz: fila, columna. """
@@ -196,9 +196,9 @@ class Matrix(list):
             elif r > 2:
                 return Matrix(self.adj() * (1.0 / self.det()))
             else:
-                raise IndexError, "Matrix: Error in dimensions."
+                raise IndexError("Matrix: Error in dimensions.")
         else:
-            raise IndexError, "Matrix: Dimensions do not match."
+            raise IndexError("Matrix: Dimensions do not match.")
 
     def pinv(self):
         """ Metodo para calcular la inversa de una matriz.
@@ -214,7 +214,7 @@ class Matrix(list):
             coef = float(up[0][0]) / down[0][0]
             return other * coef
         else:
-            raise TypeError, "Matrix: Can only operate on vectors."
+            raise TypeError("Matrix: Can only operate on vectors.")
 
     def norm(self):
         """ Metodo para calcular la norma de una matriz. """
